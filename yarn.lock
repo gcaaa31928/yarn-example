@@ -8,11 +8,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "a@workspace:packages/a"
   dependencies:
-    b: "workspace:packages/b"
+    b: 1.0.0
   languageName: unknown
   linkType: soft
 
-"b@workspace:packages/b":
+"b@1.0.0, b@workspace:packages/b":
   version: 0.0.0-use.local
   resolution: "b@workspace:packages/b"
   dependencies:
